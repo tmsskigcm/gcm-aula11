@@ -23,5 +23,10 @@ public class ContaBancaria {
 		return 0;
 	}
 	
+	public long olhar() {
+
+		return saldo;
+	}
+	
 }
  
