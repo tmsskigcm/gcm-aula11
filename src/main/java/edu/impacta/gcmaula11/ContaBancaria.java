@@ -6,8 +6,7 @@ public class ContaBancaria {
 	public ContaBancaria(long s) { saldo = s; }
 	
 	public void depositar(long valor) {
-		saldo += valor;
-		
+		saldo += valor;		
 	}
 	
 	public boolean sacar(long valor) {
