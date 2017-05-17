@@ -6,8 +6,7 @@ public class ContaBancaria {
 	public ContaBancaria(long s) { saldo = s; }
 	
 	public void depositar(long valor) {
-		// FALTA IMPLEMENTAR
-		// Deve acrescentar o valor ao saldo
+		saldo += valor;
 	}
 	
 	public boolean sacar(long valor) {
@@ -18,10 +17,7 @@ public class ContaBancaria {
 	}
 	
 	public long getSaldo() {
-		// FALTA IMPLEMENTAR
-		// Retornar o valor do atributo saldo
-		return 0;
+		return saldo;
 	}
 	
 }
- 
