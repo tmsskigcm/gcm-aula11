@@ -1,4 +1,4 @@
-package edu.impacta.gcmaula11;
+ package edu.impacta.gcmaula11;
 
 public class ContaBancaria {
 	private long saldo;
@@ -6,8 +6,7 @@ public class ContaBancaria {
 	public ContaBancaria(long s) { saldo = s; }
 	
 	public void depositar(long valor) {
-		// FALTA IMPLEMENTAR
-		// Deve acrescentar o valor ao saldo
+		saldo += valor;
 	}
 	
 	public boolean sacar(long valor) {
