@@ -7,6 +7,7 @@ public class ContaBancaria {
 	
 	public void depositar(long valor) {
 		// FALTA IMPLEMENTAR
+		saldo += valor;
 		// Deve acrescentar o valor ao saldo
 	}
 	
