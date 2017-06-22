@@ -21,7 +21,6 @@ public class ContaBancaria {
 			return false;
 			}
 	
-	
 	public long getSaldo() {
 		// FALTA IMPLEMENTAR
 		// Retornar o valor do atributo saldo
